@@ -1,7 +1,7 @@
 const { Server } = require("socket.io");
 
 const io = new Server({
-  cors: "http://localhost:5173",
+  cors: "https://nex-talk-mu.vercel.app",
 });
 
 let onlineUsers = [];
